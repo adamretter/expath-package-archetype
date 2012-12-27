@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg"
+    spec="1.0"
+    name="http://${groupId}/${artifactId}"
+    abbrev="${artifactId}"
+    version="${version}">
+    <title>${artifactId}</title>
+    <xquery>
+        <namespace>http://example</namespace>
+        <file>example.xquery</file>
+    </xquery>
+    <xslt>
+        <import-uri>http://example/example.xslt</import-uri>
+        <file>example.xslt</file>
+    </xslt>
+</package>

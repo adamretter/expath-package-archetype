@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>${groupId}</groupId>
+    <artifactId>${artifactId}</artifactId>
+    <version>${version}</version>
+    <packaging>xar</packaging>
+    
+    <name>My EXPath Package</name>
+    <description>My amazing EXPath packaged app/library</description>
+    <url>http://url/to/my/expath/package/project/</url>
+    
+    <organization>
+        <name>My Organization</name>
+        <url>http://url/to/my/organization/</url>
+    </organization>
+    
+    <licenses>
+        <license>
+            <name>My Licence</name>
+            <url>http://uri/to/my/licence/</url>
+        </license>
+    </licenses>
+    
+</project>
